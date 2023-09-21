@@ -31,102 +31,54 @@ https://colab.research.google.com/corgiredirector?site=https%3A%2F%2Fwww.kaggle.
 - `acidity` - A numerical representation of the acidity of the wine.
 
 
-## TOP 10 Years
+## Top 10 Years
 
 ![Alt Text](https://github.com/Shaunnero/EDA_UMUZI/blob/main/download.png)
 
+## Business Interpretation of the Top 10 Best-Rated Wines
 
-As a wine enthusiast and data analyst, delving into the top 10 years of wine ratings provides valuable insights that can inform our decisions and passion for wine. Here's my personal interpretation of these ratings:
+From your business point of view, the analysis of the top 10 best-rated wines can provide valuable insights and guidance for your wine-related interests and preferences. Here's how you might interpret this information:
 
-Year of Excellence: Identifying the top-rated years is like uncovering hidden gems in the world of wine. These exceptional vintages represent the pinnacle of winemaking, and it's a thrilling discovery to know which years have produced these outstanding wines. As a wine lover, I'm excited to explore and savor wines from these celebrated vintages.
+**Exceptional Quality**: As someone who appreciates fine wines, it's clear that the top 10 wines on this list are of exceptionally high quality. These wines have received remarkable ratings, indicating that they are among the best in the world.
 
-Collectible Treasures: Knowing the top-rated years allows me to focus my attention on collecting wines from these specific vintages. These bottles become valuable additions to my wine collection, and I can anticipate the joy of experiencing how these wines evolve over time. It's not just about drinking; it's about the anticipation, the story, and the history behind each bottle.
+**Diverse Options**: It's exciting to see a diverse range of wine types in the top 10. Whether you have a preference for red, white, or sparkling wines, there are outstanding options available. This diversity allows you to explore and indulge in different wine styles.
 
-Guidance for Purchases: When I'm in a wine shop or browsing online, the knowledge of the top-rated years serves as a guide. It helps me make informed choices when selecting wines. I'm more inclined to invest in wines from these vintages, confident that I'm choosing quality and flavor that align with my preferences.
+**Winery Exploration**: If you enjoy exploring wines from various wineries, this list offers a great starting point. These wines are produced by different wineries, each with its unique approach to winemaking. You can delve into the world of these wineries and their craftsmanship.
 
-Sharing the Experience: Sharing a bottle of wine from a top-rated year with friends and fellow enthusiasts becomes a memorable experience. It's an opportunity to introduce others to the world of exceptional wine and celebrate the artistry of winemakers who have crafted these remarkable vintages.
+**Price Consideration**: It's essential to be aware that many of these top-rated wines may come with premium price tags. While they promise exceptional quality, budget considerations are also important. You may want to reserve them for special occasions or celebrations.
 
-Exploring Varietals: Analyzing these ratings also allows me to explore different grape varietals and wine regions. I can diversify my collection by seeking out highly-rated wines from various years and origins, expanding my palate and knowledge in the process.
+**Global Tasting Adventure**: The top-rated wines originate from renowned wine regions worldwide. This presents an opportunity to embark on a global tasting adventure. You can explore the flavors of Bordeaux, Burgundy, Napa Valley, Champagne, and more, all from the comfort of your glass.
 
-Tracking Trends: The ratings of different years reveal trends in wine quality and styles. It's fascinating to observe how the industry evolves, and I can adapt my tasting preferences accordingly. For instance, if a particular region consistently appears in the top 10, I might explore more wines from that region.
+**Continuous Exploration**: Wine appreciation is a journey that evolves over time. Even if you don't have immediate access to these top-rated wines, you can still embark on a delightful exploration of slightly lower-rated wines. This allows you to broaden your palate and refine your wine preferences.
 
-Investment Potential: While my primary motivation is enjoyment, I also recognize the investment potential of wines from top-rated years. These bottles can appreciate significantly in value over time, adding an intriguing dimension to my wine passion.
-
-
-## Methods
-
-Regression Metric Selection: Linear regression
-
-Used to predict or explain the relationship between a dependent variable and one or more independent variables.It assumes a linear connection between these variables, represented by a straight line
-
-Regression Metric Selection: Random Forest with GridSearchCV
-
-Random Forest with GridSearchCV is a powerful combination of machine learning techniques used for building predictive models. Random Forest is an ensemble algorithm that combines multiple decision trees to make accurate predictions. GridSearchCV is a method for systematically tuning hyperparameters to find the best configuration for a model
+In your wine journey, these top 10 best-rated wines serve as a valuable reference point for discovering exceptional wines and enriching your wine-tasting experiences. Whether you seek the perfect bottle for a special occasion or simply wish to enhance your wine knowledge, this list offers a compelling starting point. Enjoy the adventure of savoring these exquisite wines and the stories they tell.
 
 
-## Results
+## Top 10 Wines
 
-Linear regresion
-Comparing Training vs. Test Performance
+![Alt Text](https://github.com/Shaunnero/EDA_UMUZI/blob/main/download%20(1).png)
 
-The R-squared value for the training data indicates that the model doesnt fit the training data well, capturing 0.67% of the variability.
-The R-squared value for the test data indicates that the model generalizes to new, unseen data with an R-squared value of  -8.45%.
+# Business Implications of Analyzing the Top 10 Best-Rated Wines
 
-In conclusion, our linear regression model demonstrates a very bad performance in predicting the target variable and is Overfitting. Its ability to generalize to new data indicates that it is overly specialized to the training data (overfitting) and too simplistic (underfitting).
+From a business perspective, the analysis of the top 10 best-rated wines carries significant implications for your wine-related endeavors. Here's how you might interpret this information:
 
-Random Forest with GridSearchCV
-Comparing Training vs. Test Performance
+1. **Quality Assurance**: As a business owner in the wine industry, recognizing the top 10 best-rated wines is crucial for ensuring quality assurance in your product offerings. These wines represent the pinnacle of excellence in the industry, and studying them can provide insights into the standards to which your own wines should aspire.
 
-The R-squared value for the training data indicates that the model doesnt fit the training data well, capturing 69% of the variability.
-The R-squared value for the test data indicates that the model generalizes to new, unseen data with an R-squared value of  59%.
+2. **Product Selection**: This list is a valuable resource for selecting wines to include in your inventory or portfolio. The top-rated wines have garnered high praise and are likely to appeal to discerning customers who seek premium products. Incorporating such wines into your selection can enhance your brand's reputation and attract a sophisticated clientele.
 
-In conclusion, this project focused on developing a Random Forest regression model to predict product prices using a range of features. The model's primary objective was to provide accurate estimations for a specific set of attributes. These attributes encompassed crucial factors like Shelf space, Fat Content, Store size, and other pertinent variables, all contributing to the model's predictions. The incorporation of the actual sale price of the product as the target variable allowed the model to discern and approximate the complex interplay between these attributes and the ultimate price.
+3. **Competitive Benchmarking**: Understanding the best-rated wines allows you to benchmark your products against the best in the market. You can assess how your wines compare in terms of taste, quality, and price. This competitive analysis can guide your pricing strategy and product development efforts.
 
-Our model exhibited promising performance on the training data, demonstrating its capability to fit well and explain a substantial portion of the variance within this dataset. The relatively low values of MAE, MSE, and RMSE, coupled with a favorable R² value of 0.696, underscored its proficiency in capturing the underlying relationships.
+4. **Marketing Opportunities**: Featuring top-rated wines in your marketing campaigns can be a powerful strategy. Highlighting these exceptional wines in your promotional materials, tasting events, or online platforms can create a sense of prestige and exclusivity around your brand.
 
-However, upon testing the model on unseen data, some nuances emerged. While the test data metrics indicated relatively low MAE and RMSE values, the increased values of MSE and the R² value of 0.596 suggested potential challenges in its generalization to new scenarios. This underscores the importance of refining the model to ensure its robustness across diverse datasets.
+5. **Supplier Relationships**: If you work with wineries or suppliers, this list can influence your partnerships. Collaborating with wineries that produce highly rated wines can bolster your reputation and provide a source of premium products for your business.
+
+6. **Customer Education**: Sharing information about the top-rated wines with your customers can be an educational opportunity. You can use these wines as examples to educate your clientele about wine quality, tasting notes, and the characteristics that make a wine exceptional.
+
+7. **Investment Considerations**: Recognizing the top-rated wines may also guide investment decisions in your business. Whether it's investing in inventory, storage facilities, or marketing campaigns, aligning with premium offerings can yield significant returns in terms of brand image and revenue.
+
+8. **Market Positioning**: Leveraging the prestige associated with these wines can help position your business as a leader in the industry. It demonstrates your commitment to quality and your ability to provide customers with the best of what the wine world has to offer.
+
+In summary, from a business standpoint, the top 10 best-rated wines serve as a strategic roadmap for product selection, marketing, and quality assurance. Incorporating these wines into your business strategy can elevate your brand, attract a discerning customer base, and drive growth and success in the competitive wine industry.
 
 
 
-#### Visuals
-### Insight 1: Overview of the numerical feaures in the data
-
-![Alt Text](https://github.com/Shaunnero/Prediction_of_Product-Sales/blob/main/Screenshot%202023-08-21%20095517.png)
-
-
-#### Visual 2 Frequency of Fat Content
-
-![Alt Text](https://github.com/Shaunnero/Prediction_of_Product-Sales/blob/main/Screenshot%202023-08-21%20100640.png)
-
-We can observe from the analysis that products labeled as 'low-fat' are more readily available compared to their regular 'full-fat' counterparts. This indicates a noticeable preference for healthier options among consumers, as evidenced by the higher availability of items with reduced fat content
-
-## Model
-
-The final model developed for this project is a Random Forest regression model. This ensemble-based approach combines multiple decision trees to make accurate predictions. Its versatility and ability to handle complex relationships between features make it well-suited for predicting product prices based on various attributes
-
-In summary, the final Random Forest regression model demonstrates favorable performance metrics on both training and test data. Its ability to minimize errors, provide accurate price predictions, and explain a substantial portion of price variability makes it a valuable tool for solving the business problem of predicting product prices. However, there is still room for improvement, especially in enhancing the model's generalization capabilities to unseen data, which can further enhance its real-world applicability.
-
-## Recommendations:
-
-Based on our analysis and model evaluation, we offer the following recommendations:
-
-Feature Importance Analysis: Conduct a comprehensive analysis of feature importance as determined by the Random Forest model. This will help identify which features, such as Shelf space, Fat Content, and Store size, have the most significant impact on predicting product prices. Focus on refining and enhancing these features to potentially improve the model's predictive accuracy.
-
-Further Data Collection: Consider collecting additional data on attributes that could influence product prices but were not included in the current dataset. This could involve gathering more information about factors like brand popularity, packaging design, or promotional strategies. Expanding the dataset in this way may lead to more accurate price predictions.
-
-Model Tuning: Experiment with fine-tuning the hyperparameters of the Random Forest model. Adjust variables such as the number of trees, maximum depth, and minimum samples per leaf, specifically tailored to the context of predicting product prices. Proper tuning can enhance the model's generalization capability and overall performance.
-
-Cross-Validation: Implement k-fold cross-validation to rigorously evaluate the model's performance across different subsets of the data. By assessing the model's consistency and robustness, you can ensure that its predictions remain accurate and reliable.
-
-Ensemble Methods: Explore the potential of ensemble techniques like bagging or boosting, which can improve the model's predictive power by combining multiple models. These techniques could help mitigate any potential overfitting concerns and lead to more reliable predictions.
-
-Collaboration with Domain Experts: Consider collaborating with experts in retail or marketing to gain insights into additional features or nuances that might impact product pricing. Their domain knowledge can guide you in selecting meaningful features and refining the model accordingly.
-
-External Data Integration: Investigate the possibility of integrating external data sources, such as market trends or economic indicators, to enrich your dataset. This broader context could enhance the model's ability to capture pricing variations accurately.
-
-Ongoing Model Evaluation: Continuously monitor and evaluate the model's performance as new sales data becomes available. This iterative process ensures that the model remains up-to-date and effective in providing accurate price predictions.
-
-
-### For further information
-
-This project was authored by Shaun van der Merwe. You can reach out to me at shaun.vandermerwe@mmltd.co.za.
